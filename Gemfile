@@ -5,6 +5,7 @@ gem 'rails'
 group :development do
   gem 'sqlite3'
   gem 'therubyracer'
+  gem 'rspec-rails'
 end
 
 gem 'json'
@@ -17,6 +18,10 @@ end
 
 gem 'jquery-rails'
 gem 'execjs'
+
+group :test do
+  gem 'capybara'
+end
 
 group :production do
   gem 'pg'

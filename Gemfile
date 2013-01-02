@@ -4,6 +4,7 @@ gem 'rails'
 gem 'json'
 gem 'jquery-rails'
 gem 'execjs'
+gem 'bootstrap-sass'
 
 group :development do
   gem 'sqlite3'

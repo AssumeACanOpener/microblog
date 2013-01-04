@@ -5,10 +5,12 @@ gem 'json'
 gem 'jquery-rails'
 gem 'execjs'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 group :development do
   gem 'sqlite3'
   gem 'therubyracer'
+  gem 'annotate'
 end
 
 group :test do
